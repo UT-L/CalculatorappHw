@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         double number2 = Double.parseDouble(num2);
         double result = 0;
 
-        // Instead of switch, use if-else
         if (view.getId() == R.id.buttonPlus) {
             result = number1 + number2;
         } else if (view.getId() == R.id.buttonMinus) {
